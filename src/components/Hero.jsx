@@ -45,7 +45,7 @@ const Hero = () => {
           </p>
 
           {/* Buttons + Socials */}
-          <div className="flex flex-col items-center sm:items-start">
+          <div className="flex flex-col items-center sm:items-start md:items-center lg:items-start">
             {/* Contact and Resume Buttons */}
             <div className="flex flex-col sm:flex-row justify-center lg:justify-start items-center gap-4 sm:gap-0">
               <a
@@ -58,7 +58,7 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href="/Adaeze_Aniekee_Resume.pdf"
+                href="/Adaeze_Anieke_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-transparent hover:bg-red-500 hover:text-white 

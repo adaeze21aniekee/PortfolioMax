@@ -55,7 +55,7 @@ const About = () => {
             viewport={{ once: true }}
             className="text-gray-800 dark:text-gray-200 text-lg leading-relaxed"
           >
-            Hi, I’m{" "}
+            Hi, I'm{" "}
             <span className="font-bold">ADAEZE ANIEKEE</span> — a{" "}
             <span className="text-red-500 font-semibold">
               Front-End Engineer

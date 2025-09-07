@@ -195,7 +195,7 @@ useEffect(() => {
               ))}
 
               <a
-  href="/Adaeze_Aniekee_Resume.pdf"
+  href="/Adaeze_Anieke_Resume.pdf"
   download // ← This tells the browser to download instead of open
   className="inline-block bg-transparent hover:bg-red-500 hover:text-white 
              text-gray-900 dark:text-white font-semibold py-2 px-6 rounded 
@@ -204,6 +204,7 @@ useEffect(() => {
 >
   Download Resume
 </a>
+
 
 
               {/* Socials */}
