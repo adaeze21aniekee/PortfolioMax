@@ -171,7 +171,7 @@ const Contact = () => {
                 required
                 className="w-full mt-1 p-3 rounded-lg border 
                            border-gray-300 dark:border-gray-600 
-                           dark:bg-zinc-800 dark:text-white 
+                           dark:bg-zinc-800 text-black dark:text-white 
                            focus:ring-2 focus:ring-red-400 
                            focus:border-red-400 outline-none 
                            transition-all duration-300"
