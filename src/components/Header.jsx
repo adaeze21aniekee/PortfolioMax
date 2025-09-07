@@ -89,12 +89,11 @@ useEffect(() => {
       );
   };
 
-
-
   const navItems = ["About", "Services", "Contact"];
 
+  
   return (
-     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ease-in-out
+     <header className={`fixed top-0 w-full z-50 transition-all duration-300 ease-in-out 
     ${isScrolled ? 'h-14 md:h-16 bg-white/70 dark:bg-zinc-900/70 shadow-md' : 'h-20 md:h-24'}
   `}>
 
@@ -181,7 +180,7 @@ useEffect(() => {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: isOpen ? 1 : 0, height: isOpen ? "auto" : 0 }}
               transition={{ duration: 0.5 }}
-              className="md:hidden overflow-hidden bg-white dark:bg-zinc-900 px-4 py-4 absolute top-16 left-0 w-full shadow-lg z-40 flex flex-col space-y-4"
+              className="md:hidden overflow-x-hidden bg-white dark:bg-zinc-900 px-4 py-4 absolute top-16 left-0 w-full shadow-lg z-40 flex flex-col space-y-4"
             >
               {navItems.map((item) => (
                 <a
